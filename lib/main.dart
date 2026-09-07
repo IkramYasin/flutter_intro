@@ -1,6 +1,7 @@
-// ignore_for_file: sized_box_for_whitespace, camel_case_types
+// ignore_for_file: unused_import, sized_box_for_whitespace, camel_case_types
 
 import 'package:flutter/material.dart';
+import 'package:flutter_basics/views/loginscr.dart';
 import 'package:flutter_basics/views/registerscr.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
     
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Register_Screen(title: 'Register Page'),
+      home: const Login_Page(title: 'Login Page'),
       // MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
